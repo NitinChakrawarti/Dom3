@@ -1,0 +1,21 @@
+.main{
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cursor{
+    height: 15px;
+    width: 15px;
+    background-color: crimson;
+    border-radius: 50%;
+    position: absolute;
+    mix-blend-mode: difference;
+    transition: all linear .2s;
+}
